@@ -3,9 +3,10 @@ body {
     background: #FFFFFF;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 13px;
-    margin: 0;
+    margin: 8px;
     padding: 0;
     overflow: auto;
+    display:block
 }
 
 h2 {
@@ -15,9 +16,10 @@ p {
     font-size: medium;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
-.pformat {
+.funParagraph {
     line-height: 1.8em;
     white-space: pre-line;
+    color:green
 }
 img {
     width: 850px;
@@ -60,8 +62,8 @@ img {
     text-align: left;
 }
 
-h1 {
-    text-align: center;
+#mainHeading {
+    text-align: left;
     font-weight: bolder;
     color:red;
 }
